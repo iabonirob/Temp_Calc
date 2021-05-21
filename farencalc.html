@@ -16,24 +16,27 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="farencalc.html">Farenheit to Celsius Calculator</a>
-                    <a class="nav-link" href="celsiuscalc.html">Celsius to Farenheit Calculator</a>
-                </div>
-            </div>
-        </nav>
-    </header>
+    
+    <div class="hero-image">
+        <div class="hero-text">
+        </div>
+      </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="farencalc.html">Farenheit to Celsius Calculator</a>
+            <a class="nav-link" href="celsiuscalc.html">Celsius to Farenheit Calculator</a>
+          </div>
+        </div>
+      </nav>
 
 
     <main>
+    <form>
         <h1 class="text-center">Farenheit to Celsius Converter</h1>
         <div class="wrapper">
             <div class="container-rob">
@@ -45,7 +48,12 @@
             <label for="Celsius">Celsius</label>
             <input type="text" id="Celsius">
             <br>
-            <input type="button" value="converter" id="convertBtn">
+            <input type="button" value="Convert" id="convertBtn">
+                <div>
+                    <input type="reset" value="Reset">
+                </div>
+    </form>
+          
     </div>
     </div>
 

@@ -2,13 +2,13 @@
 
 
 window.onload = function () {
-    //connect calcaddBtn
+   //connect button converBtn
     const convertBtn = document.getElementById("convertBtn");
     convertBtn.onclick = convertBtnClicked;
 }
 
 function convertBtnClicked (){
-    // Get payRate of employee from <input> field
+    // Get celsius tempeture from <input> field
     const celsiusField = document.getElementById("Celsius");
     let celsius = Number(celsiusField.value);
 
@@ -16,7 +16,7 @@ function convertBtnClicked (){
 
 
     
-    //Generate output for gross pay and display in <p id="results">
+    //Displays the value in faremheit in the input
     const farenheitField = document.getElementById("Farenheit");
     farenheitField.value = answer;
 }
